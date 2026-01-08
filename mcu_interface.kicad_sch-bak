@@ -518,7 +518,7 @@
 	)
 	(text "SDA"
 		(exclude_from_sim no)
-		(at 44.704 65.532 90)
+		(at 70.104 141.732 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -528,7 +528,7 @@
 	)
 	(text "SCL"
 		(exclude_from_sim no)
-		(at 42.164 65.532 90)
+		(at 67.564 141.732 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -538,7 +538,7 @@
 	)
 	(text "3V3"
 		(exclude_from_sim no)
-		(at 37.084 65.532 90)
+		(at 62.484 141.732 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -548,7 +548,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 39.624 65.532 90)
+		(at 65.024 141.732 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -558,7 +558,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 63.5) (xy 50.8 63.5)
+			(xy 71.12 139.7) (xy 76.2 139.7)
 		)
 		(stroke
 			(width 0)
@@ -568,7 +568,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 38.1) (xy 45.72 50.8)
+			(xy 71.12 114.3) (xy 71.12 127)
 		)
 		(stroke
 			(width 0)
@@ -578,7 +578,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 50.8 55.88)
+			(xy 76.2 114.3) (xy 76.2 132.08)
 		)
 		(stroke
 			(width 0)
@@ -588,7 +588,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 33.02 63.5)
+			(xy 63.5 139.7) (xy 58.42 139.7)
 		)
 		(stroke
 			(width 0)
@@ -598,7 +598,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 43.18 63.5)
+			(xy 68.58 134.62) (xy 68.58 139.7)
 		)
 		(stroke
 			(width 0)
@@ -608,7 +608,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 45.72 58.42)
+			(xy 68.58 134.62) (xy 71.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -617,7 +617,7 @@
 		(uuid "ee3b589a-098b-4b84-a42d-b881caf3eb97")
 	)
 	(label "MCU_3V3"
-		(at 36.83 63.5 180)
+		(at 62.23 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -627,7 +627,7 @@
 		(uuid "8744044a-d39e-44d3-a5c0-5af3fbe91bd4")
 	)
 	(label "SCL_MCU"
-		(at 43.18 63.5 90)
+		(at 68.58 139.7 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -637,7 +637,7 @@
 		(uuid "a78a5537-e66b-4e06-9d84-f1ff208d3251")
 	)
 	(label "SDA_MCU"
-		(at 45.72 63.5 0)
+		(at 71.12 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -648,7 +648,7 @@
 	)
 	(global_label "SDA_BUS"
 		(shape input)
-		(at 50.8 38.1 0)
+		(at 76.2 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -658,7 +658,7 @@
 		)
 		(uuid "231b4284-60f1-45a7-bccb-2b493ae74c73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.1309 38.1 0)
+			(at 87.5309 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +670,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 40.64 63.5 90)
+		(at 66.04 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -680,7 +680,7 @@
 		)
 		(uuid "4980f8d4-81e6-428d-8973-3eabaafa8926")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 56.6443 90)
+			(at 66.04 132.8443 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +692,7 @@
 	)
 	(global_label "Vlogic_3V3"
 		(shape input)
-		(at 50.8 30.48 90)
+		(at 76.2 106.68 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -702,7 +702,7 @@
 		)
 		(uuid "7376daa9-fb6f-474a-8166-a9aa7f11e221")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 17.2744 90)
+			(at 76.2 93.4744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +714,7 @@
 	)
 	(global_label "SCL_BUS"
 		(shape input)
-		(at 45.72 38.1 180)
+		(at 71.12 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -724,7 +724,7 @@
 		)
 		(uuid "a546e1da-2ac9-4968-9c3d-96a598d9c9be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.4496 38.1 0)
+			(at 59.8496 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +736,7 @@
 	)
 	(global_label "Vlogic_3V3"
 		(shape input)
-		(at 33.02 55.88 90)
+		(at 58.42 132.08 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -746,7 +746,7 @@
 		)
 		(uuid "ac290457-191a-4422-8010-8ab579e38ae0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 42.6744 90)
+			(at 58.42 118.8744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,7 +758,7 @@
 	)
 	(global_label "Vlogic_3V3"
 		(shape input)
-		(at 45.72 30.48 90)
+		(at 71.12 106.68 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -768,7 +768,7 @@
 		)
 		(uuid "b2dd9896-0990-451f-aaad-4988fccd0fea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 17.2744 90)
+			(at 71.12 93.4744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,7 +780,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 68.58 270)
+		(at 68.58 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -789,7 +789,7 @@
 		(fields_autoplaced yes)
 		(uuid "0179e1ba-4616-4839-8271-ff48bfdb040a")
 		(property "Reference" "J1"
-			(at 41.91 72.39 90)
+			(at 67.31 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,7 +797,7 @@
 			)
 		)
 		(property "Value" "MCU_I2C"
-			(at 41.91 74.93 90)
+			(at 67.31 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 68.58 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,7 +814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 68.58 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,7 +823,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 68.58 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +854,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 59.69 0)
+		(at 76.2 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -863,7 +863,7 @@
 		(fields_autoplaced yes)
 		(uuid "65df273c-53e6-4511-9349-808c163e27cd")
 		(property "Reference" "R6"
-			(at 53.34 58.4199 0)
+			(at 78.74 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +872,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 53.34 60.9599 0)
+			(at 78.74 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,8 +880,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 49.022 59.69 90)
+		(property "Footprint" ""
+			(at 74.422 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 59.69 0)
+			(at 76.2 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +899,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 59.69 0)
+			(at 76.2 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +924,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 54.61 0)
+		(at 71.12 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -933,7 +933,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a778d64-e509-411e-b527-0f740e95650d")
 		(property "Reference" "R5"
-			(at 48.26 53.3399 0)
+			(at 73.66 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +942,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 48.26 55.8799 0)
+			(at 73.66 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,8 +950,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 43.942 54.61 90)
+		(property "Footprint" ""
+			(at 69.342 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 54.61 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +969,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 54.61 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +994,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 34.29 0)
+		(at 71.12 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1003,7 +1003,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddd8f074-ad8d-4832-a079-983496513b57")
 		(property "Reference" "R7"
-			(at 48.26 33.0199 0)
+			(at 73.66 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1012,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 48.26 35.5599 0)
+			(at 73.66 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,8 +1020,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 43.942 34.29 90)
+		(property "Footprint" ""
+			(at 69.342 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 34.29 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +1039,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 34.29 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1064,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 33.02 59.69 90)
+		(at 58.42 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1073,7 +1073,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6e9d88b-33ec-4912-a3e0-08ac32fdfbb0")
 		(property "Reference" "JP1"
-			(at 35.56 58.4199 90)
+			(at 60.96 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1082,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 35.56 60.9599 90)
+			(at 60.96 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,8 +1090,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 33.02 59.69 0)
+		(property "Footprint" ""
+			(at 58.42 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 59.69 0)
+			(at 58.42 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1109,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 33.02 59.69 0)
+			(at 58.42 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1134,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50.8 34.29 0)
+		(at 76.2 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1143,7 +1143,7 @@
 		(fields_autoplaced yes)
 		(uuid "f60f850c-680d-485a-b7a6-45e3fb9a6775")
 		(property "Reference" "R8"
-			(at 53.34 33.0199 0)
+			(at 78.74 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1152,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 53.34 35.5599 0)
+			(at 78.74 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,8 +1160,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 49.022 34.29 90)
+		(property "Footprint" ""
+			(at 74.422 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 34.29 0)
+			(at 76.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1179,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 34.29 0)
+			(at 76.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
