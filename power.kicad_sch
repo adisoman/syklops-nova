@@ -5,6 +5,113 @@
 	(uuid "55b9c56d-e004-4340-bded-2861f829e8ff")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -1485,6 +1592,12 @@
 		(uuid "1fc6f865-055c-4420-835e-1f69f932c9c6")
 	)
 	(junction
+		(at 147.32 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e09e7a8-d38c-46ba-ab42-a098eb89be8b")
+	)
+	(junction
 		(at 148.59 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1501,6 +1614,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f6810ce-63db-46ea-a83e-14295f079cea")
+	)
+	(junction
+		(at 120.65 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82ed7455-4c23-493f-8682-2102c8a10749")
 	)
 	(junction
 		(at 156.21 60.96)
@@ -1533,6 +1652,12 @@
 		(uuid "d64a3897-08c3-45c1-b3ea-40fefda0d3b7")
 	)
 	(junction
+		(at 146.05 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7c69019-542f-4aa5-9155-1e9937ed9ad2")
+	)
+	(junction
 		(at 156.21 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1547,6 +1672,16 @@
 			(type default)
 		)
 		(uuid "0b676378-1e08-48f9-864a-a17701f4ad44")
+	)
+	(wire
+		(pts
+			(xy 120.65 58.42) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e25c48d-5785-4928-b5fd-853a3d207cc2")
 	)
 	(wire
 		(pts
@@ -1580,6 +1715,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 31.75) (xy 148.59 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299c497d-9801-4704-87f9-0312ed4c6516")
+	)
+	(wire
+		(pts
 			(xy 147.32 66.04) (xy 147.32 69.85)
 		)
 		(stroke
@@ -1590,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 31.75) (xy 148.59 31.75)
+			(xy 143.51 31.75) (xy 146.05 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 120.65 57.15)
+			(xy 120.65 60.96) (xy 120.65 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2339,6 +2484,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc6ed0b-a78c-442a-953e-958eaa7c7acb")
+		(property "Reference" "TP_VBUS1"
+			(at 148.59 33.7819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.59 36.3219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e60a81c-bea9-4a95-9bea-7cf313ac3e8e")
+		)
+		(instances
+			(project ""
+				(path "/c8d0e3cf-b697-430c-b4f3-c5285558b4ca/a3d1f251-0cce-4493-9b12-767abad6ca7c"
+					(reference "TP_VBUS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 113.03 60.96 0)
 		(unit 1)
@@ -2705,7 +2917,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 124.46 36.83 0)
 			(effects
 				(font
@@ -3001,7 +3213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 144.78 30.48 0)
 			(effects
 				(font
@@ -3039,6 +3251,140 @@
 			(project ""
 				(path "/c8d0e3cf-b697-430c-b4f3-c5285558b4ca/a3d1f251-0cce-4493-9b12-767abad6ca7c"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef25fe44-2402-4468-8307-c1049ca1f49c")
+		(property "Reference" "TP_3V3"
+			(at 152.4 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 152.4 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 147.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e60a81c-bea9-4a95-9bea-7cf313ac3e8e")
+		)
+		(instances
+			(project ""
+				(path "/c8d0e3cf-b697-430c-b4f3-c5285558b4ca/a3d1f251-0cce-4493-9b12-767abad6ca7c"
+					(reference "TP_3V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1619482-a639-4319-82a7-5d47a9846e89")
+		(property "Reference" "TP_gnd1"
+			(at 125.73 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 125.73 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e60a81c-bea9-4a95-9bea-7cf313ac3e8e")
+		)
+		(instances
+			(project ""
+				(path "/c8d0e3cf-b697-430c-b4f3-c5285558b4ca/a3d1f251-0cce-4493-9b12-767abad6ca7c"
+					(reference "TP_gnd1")
 					(unit 1)
 				)
 			)
