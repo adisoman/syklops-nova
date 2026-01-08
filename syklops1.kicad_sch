@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c8d0e3cf-b697-430c-b4f3-c5285558b4ca")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at -101.6 -62.23)
+		(size 596.9 341.63)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c39946e-021f-4114-8bd3-16f2fc1a7bfc")
+		(property "Sheetname" "MCU_interface"
+			(at -101.6 -62.9416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_interface.kicad_sch"
+			(at -101.6 279.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "syklops1"
+				(path "/c8d0e3cf-b697-430c-b4f3-c5285558b4ca"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -93.98 -53.34)
+		(size 584.2 325.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a481b71-b22e-40e0-89f1-cadf2a95c557")
+		(property "Sheetname" "PWM"
+			(at -93.98 -54.0516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm.kicad_sch"
+			(at -93.98 272.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "syklops1"
+				(path "/c8d0e3cf-b697-430c-b4f3-c5285558b4ca"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -100.33 -62.23)
+		(size 595.63 340.36)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64b9c830-1dcb-42ca-8ce2-512d1a0b5a28")
+		(property "Sheetname" "ADC_controller"
+			(at -100.33 -62.9416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc_controller.kicad_sch"
+			(at -100.33 278.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "syklops1"
+				(path "/c8d0e3cf-b697-430c-b4f3-c5285558b4ca"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -85.09 -46.99)
+		(size 568.96 312.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3d1f251-0cce-4493-9b12-767abad6ca7c")
+		(property "Sheetname" "Power"
+			(at -85.09 -47.7016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at -85.09 266.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "syklops1"
+				(path "/c8d0e3cf-b697-430c-b4f3-c5285558b4ca"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
