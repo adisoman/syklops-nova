@@ -2917,7 +2917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17"
 			(at 124.46 36.83 0)
 			(effects
 				(font
@@ -3312,7 +3312,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e60a81c-bea9-4a95-9bea-7cf313ac3e8e")
+			(uuid "4e60a81c-bea9-4a95-9bea-7cf313ac3e8f")
 		)
 		(instances
 			(project ""
@@ -3379,7 +3379,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e60a81c-bea9-4a95-9bea-7cf313ac3e8e")
+			(uuid "4e60a81c-bea9-4a95-9bea-7cf313ac3e90")
 		)
 		(instances
 			(project ""
