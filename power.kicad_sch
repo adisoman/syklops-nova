@@ -1981,6 +1981,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 130.81 69.85 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d76e040-3e26-4b85-b673-53fa713b6d03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 76.7057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS_5V"
 		(shape input)
 		(at 128.27 59.69 270)
