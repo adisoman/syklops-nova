@@ -1955,6 +1955,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5116530"
+			(at 269.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "39f8a02f-ebc6-416e-a28b-f0a4050eba6d")
 		)
@@ -2024,6 +2033,15 @@
 			)
 		)
 		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
+			(at 238.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11628"
 			(at 238.76 57.15 0)
 			(effects
 				(font
@@ -2178,6 +2196,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 242.57 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "722f41eb-d497-4045-a657-a96c87bfa1ad")
 		)
@@ -2248,6 +2275,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a84a857e-2369-426e-a645-37cb9b96d519")
 		)
@@ -2310,6 +2346,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 269.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18078131"
 			(at 269.24 46.99 0)
 			(effects
 				(font
